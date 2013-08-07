@@ -13,7 +13,7 @@ public class Enemy extends Mob {
 	private boolean walking = false;
 
 	private int fireRate = 0;
-	private double enemyRange = 200;
+	private double enemyRange = 85;
 	private Player player = Game.getPlayer();
 	private int counter = 0;
 
