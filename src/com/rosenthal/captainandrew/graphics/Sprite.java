@@ -53,6 +53,9 @@ public class Sprite {
 	// Projectile sprites go here!
 	public static Sprite captain_projectile = new Sprite(16, 0, 0, SpriteSheet.projectile_captain);
 	public static Sprite enemy_projectile = new Sprite(16, 0, 0, SpriteSheet.projectile_enemy);
+	
+	// Particle Sprites go here!
+	public static Sprite particle_normal = new Sprite(3, 0xAAAAAA);
 
 	public Sprite(int size, int x, int y, SpriteSheet sheet) {
 		SIZE = size;
